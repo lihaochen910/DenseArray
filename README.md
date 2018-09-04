@@ -1,4 +1,4 @@
-**DenseArray** is a library that uses only one-dimensional arrays to implement multidimensional arrays.<br>
+**DenseArray** is a library that uses only one-dimensional arrays to implement multidimensional arrays.<br><br>
 **DenseArray** 是一个只使用一维数组去实现多维数组功能的库.
 
 ### Features
@@ -12,15 +12,24 @@ Code:
 var dense = new DenseArray2D<int>(3, 3);
 dense[0, 2] = 42;
 ```
+```csharp
+var dense = new DenseArray3D<Userdata>(3, 3, 3);
+dense[0, 1, 2] = new Userdata();
+```
 
 ### How it works
 - Example in 2D
+<br>
 ![Example in 2D](https://eli.thegreenplace.net/images/2015/column-major-2D.png)
+<br>
 ![index](https://eli.thegreenplace.net/images/math/ab533f15375dcdb69e7affdd1a4c835e146b7751.png)
 
 - Example in 3D
+<br>
 ![Example in 2D](https://eli.thegreenplace.net/images/2015/row-major-3D.png)
+<br>
 ![index](https://eli.thegreenplace.net/images/math/3952a22345f3e71ecbf5b74899d875ca2b9035f2.png)
+<br>
 
 
 ### Reference
