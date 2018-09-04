@@ -19,7 +19,7 @@ dense[0, 1, 2] = new Userdata();
 
 ### How it works
 - Example in 2D<br>
-![Example in 2D](https://eli.thegreenplace.net/images/2015/column-major-2D.png)
+![Example in 2D](https://eli.thegreenplace.net/images/2015/column-major-2D.png)<br>
 ![index](https://eli.thegreenplace.net/images/math/ab533f15375dcdb69e7affdd1a4c835e146b7751.png)
 
 - Example in 3D<br>
